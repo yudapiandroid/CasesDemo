@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/include_normal_title"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/text_6e"
+                            android:textSize="@dimen/text_size_x6"
+                            android:text="姓名:     大批"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:layout_marginLeft="8dp"
+                            android:src="@mipmap/icon_sex"
+                            android:layout_gravity="center"
+                            android:layout_width="14dp"
+                            android:layout_height="14dp" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/text_6e"
+                        android:textSize="@dimen/text_size_x6"
+                        android:text="手机号:      18780202291"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/text_6e"
+                        android:textSize="@dimen/text_size_x6"
+                        android:text="年龄:         14岁"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/text_6e"
+                        android:textSize="@dimen/text_size_x6"
+                        android:text="就诊时间: 2018-04-25               住院号: JB2312"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_margin="16dp"
+                    android:text="完善基本信息 >"
+                    android:layout_gravity="right|top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+            <View
+                android:background="@color/main_line_x"
+                android:layout_height="8dp"
+                android:layout_width="match_parent"/>
+
+
+            <TextView
+                android:layout_margin="16dp"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/text_size_x6"
+                android:text="标签"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/icon_add_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginTop="16dp"
+                android:background="@color/main_line_x"
+                android:layout_height="8dp"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/text_size_x6"
+                android:text="诊断"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:text="该患者是有间接性精神病"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="@color/main_line_x"
+                android:layout_height="1px"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/text_size_x6"
+                android:text="基本病情"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:text="该患者是有间接性精神病"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginTop="16dp"
+                android:background="@color/main_line_x"
+                android:layout_height="8dp"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_margin="16dp"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/text_size_x4"
+                android:layout_gravity="center"
+                android:text="患者病程"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:background="@color/main_color"
+                    android:layout_width="8dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:text="首诊"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:src="@mipmap/image_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:text="记录病程: 病程的描述信息"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:background="@color/main_line_x"
+        android:layout_height="1px"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@mipmap/icon_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/text_size_x5"
+                android:text="添加病程"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@mipmap/icon_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

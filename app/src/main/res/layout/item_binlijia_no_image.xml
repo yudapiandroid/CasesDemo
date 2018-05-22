@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/text_3e"
+                android:textSize="@dimen/text_size_x5"
+                android:text="大批"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/icon_sex"
+                android:layout_width="12dp"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:text="18岁"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="诊断: 间歇性精神病"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/image_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/image_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/image_07"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="8dp"
+        android:background="@color/main_line_x"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+</LinearLayout>

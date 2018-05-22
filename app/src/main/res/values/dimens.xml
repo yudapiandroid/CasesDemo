@@ -1,0 +1,80 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title_height">43dp</dimen>
+
+    <dimen name="banner_height">160dp</dimen>
+
+    <!-- 首页导航的高度 -->
+    <dimen name="index_guide_height">60dp</dimen>
+    <dimen name="index_guide_text_margin_top">4dp</dimen>
+
+    <!--  标题栏两边图标的间距 -->
+    <dimen name="title_margin_left">16dp</dimen>
+    <dimen name="title_margin_right">16dp</dimen>
+
+
+    <dimen name="approve_padding">8dp</dimen>
+
+    <!--
+
+        字体大小 就先这样定
+        10px 18px  24px  22px 26px  30px  36px
+    -->
+    <dimen name="text_size_x20">20sp</dimen>
+    <dimen name="text_size_x17">17sp</dimen>
+    <dimen name="text_size_x16">16sp</dimen>
+    <dimen name="text_size_x14">14sp</dimen>
+    <dimen name="text_size_x7">18sp</dimen>
+    <dimen name="text_size_x6">15sp</dimen>
+    <dimen name="text_size_x5">13sp</dimen>
+    <dimen name="text_size_x4">12sp</dimen>
+    <dimen name="text_size_x3">11sp</dimen>
+    <dimen name="text_size_x2">10sp</dimen>
+    <dimen name="text_size_x">9sp</dimen>
+
+    <!-- 两个分割线的高度 -->
+    <dimen name="line_h_x">1px</dimen>
+    <dimen name="line_h_xx">2dp</dimen>
+
+    <!-- 分隔栏的高度   20px -->
+    <dimen name="separator_h_x">8dp</dimen>
+    <dimen name="separator_h_xx">14dp</dimen>
+    <dimen name="separator_h_xxx">16dp</dimen>
+
+    <!-- 左右的默认padding间距 -->
+    <dimen name="normal_padding_left">16dp</dimen>
+    <dimen name="normal_padding_right">16dp</dimen>
+    <dimen name="normal_padding_top">12dp</dimen>
+    <dimen name="normal_padding_bottom">12dp</dimen>
+    <dimen name="normal_padding">16dp</dimen>
+
+
+    <!--  item 里面的间距 -->
+    <dimen name="normal_item_margin_top">4dp</dimen>
+    <dimen name="online_school_pre_height">150dp</dimen>
+
+    <!-- grid 和 list 里面课程预览图的宽度和高度 -->
+    <dimen name="course_grid_item_image_h">90dp</dimen>
+    <dimen name="course_grid_item_image_w">125dp</dimen>
+    <dimen name="course_list_item_image_h">100dp</dimen>
+    <dimen name="course_list_item_image_w">140dp</dimen>
+
+    <dimen name="medical_meet_image_h">160dp</dimen>
+
+
+    <dimen name="person_center_index_title_height">200dp</dimen>
+
+    <!-- 默认的button的高度 -->
+    <dimen name="default_button_height">40dp</dimen>
+    <dimen name="default_button_width">70dp</dimen>
+
+    <dimen name="normal_button_height">30dp</dimen>
+    <dimen name="normal_button_width">60dp</dimen>
+
+    <dimen name="case_image_h">120dp</dimen>
+
+    <dimen name="task_margin">5dp</dimen>
+</resources>

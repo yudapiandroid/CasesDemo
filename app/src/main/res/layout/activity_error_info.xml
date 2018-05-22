@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/include_normal_title"/>
+
+    <TextView
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/text_3e"
+        android:textSize="@dimen/text_size_x6"
+        android:text="名称: 病例四肢麻木无力，语言不清2个月"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/text_6e"
+        android:textSize="@dimen/text_size_x5"
+        android:text="作者: diro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/text_6e"
+        android:textSize="@dimen/text_size_x5"
+        android:text="来源: inner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    
+    <TextView
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:hint="请输入错误信息，以便我们及时修改"
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+</LinearLayout>

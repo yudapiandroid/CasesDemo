@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 主色调 -->
+    <color name="main_color">#00bcd4</color>
+    <!-- 稍微深一点的颜色 -->
+    <color name="main_color_h">#22bcd4</color>
+    <color name="main_color_y">#ffc340</color>
+
+    <!-- 主要的背景色 -->
+    <color name="main_bg">#fff</color>
+
+    <color name="main_line_x">#e6e6e6</color>
+    <color name="main_line_xx">#3666</color>
+    <color name="main_line_xxx">#6666</color>
+
+    <!-- 分隔栏的颜色 -->
+    <color name="separator_x">#e6e6e6</color>
+    <color name="separator_xx">#4666</color>
+
+    <color name="text_3e">#3e3e3e</color>
+    <color name="text_6e">#6e6e6e</color>
+    <color name="text_a9">#a9a9a9</color>
+
+    <color name="color_f8">#F8F8F8</color>
+
+</resources>
